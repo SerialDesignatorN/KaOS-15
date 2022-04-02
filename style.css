@@ -209,9 +209,8 @@ nav{
 display: inline-block;
 }
 #span {
-  font-size: 16px;
+  font-size: 75px;
   color: white;
-  display: inline-block;
 }
 .special {
   border: 1px white solid;

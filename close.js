@@ -119,3 +119,14 @@ function Kasiustalk() {
     x.style.display = "none";
   }
 }
+function CloseForward() {
+  var x = document.getElementById("forwardwin");
+  var content = document.getElementById("forward");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    content.src = "https://zeankundev.github.io/forward/";
+  } else {
+    x.style.display = "none";
+    content.src = "";
+  }
+}

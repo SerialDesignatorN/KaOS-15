@@ -37,14 +37,17 @@
 <div class="sidebar2" id="Sidebar">
 <div class="search2"><h2 style="text-align: left; vertical-align: left; padding: 0; margin: 0;"><i class="fa-solid fa-circle-user"></i>ㅤUser1</h2></div><br>
 
-<button onclick="Closetestwindow2()" class="menubutton2"><img src="Icons/mememaker.png" style="height: 40px; width: 40px;"></img></button>
-<button onclick="Closetestwindow3()" class="menubutton2"><img src="Icons/notes.png" style="height: 40px; width: 40px;"></img></button>
-<button onclick="Closetestwindow()" class="menubutton2"><img src="Icons/filesicon.png" style="height: 40px; width: 40px;"></img></button>
-<button onclick="Closetestwindow8()" class="menubutton2"><img src="KaOS13Logo.png" style="height: 40px; width: 40px;"></img></button>
-<button onclick="Closetestwindow4()" class="menubutton2"><img src="Icons/media.png" style="height: 40px; width: 40px;"></img></button>
-<button onclick="Closetestwindow5()" class="menubutton2"><img src="Icons/Store.png" style="height: 40px; width: 40px;"></img></button>
-<button onclick="CloseVSCode()" class="menubutton2"><img src="Icons/vscode.png" style="height: 40px; width: 40px;"></img></button>
-<button onclick="CloseTerminal()" class="menubutton2"><img src="Icons/terminal.png" style="height: 40px; width: 40px;"></img></button>
+<button onclick="Closetestwindow2()" class="menubutton2" title="Meme Maker"><img src="Icons/mememaker.png" style="height: 40px; width: 40px;"></img></button>
+<button onclick="Closetestwindow3()" class="menubutton2" title="Notes"><img src="Icons/notes.png" style="height: 40px; width: 40px;"></img></button>
+<button onclick="Closetestwindow()" class="menubutton2" title="Files"><img src="Icons/filesicon.png" style="height: 40px; width: 40px;"></img></button>
+<button onclick="Closetestwindow8()" class="menubutton2" title="KaOS VM"><img src="KaOS13Logo.png" style="height: 40px; width: 40px;"></img></button>
+<br>
+<button onclick="Closetestwindow4()" class="menubutton2" title="Media"><img src="Icons/media.png" style="height: 40px; width: 40px;"></img></button>
+<button onclick="Closetestwindow5()" class="menubutton2" title="Store"><img src="Icons/Store.png" style="height: 40px; width: 40px;"></img></button>
+<button onclick="CloseVSCode()" class="menubutton2" title="Visual Studio Code"><img src="Icons/vscode.png" style="height: 40px; width: 40px;"></img></button>
+<button onclick="CloseTerminal()" class="menubutton2" title="Terminal"><img src="Icons/terminal.png" style="height: 40px; width: 40px;"></img></button>
+<br>
+<button onclick="CloseForward()" class="menubutton2" title="Forward"><img src="Icons/icon.png" style="height: 40px; width: 40px;"></img></button>
 
 <div class="search">
 &nbsp;
@@ -93,6 +96,11 @@
 <div class="window" id="window8">
 <div class="header"><button class="headertext">Visual Studio Code</button><button onclick="CloseVSCode()" class="closebutton"><i class="fa-solid fa-xmark"></i></button></div>
 <div class="content"><iframe src="" id="vscode" width="600" height="450" style="border-radius: 0px 0px 5px 5px; border: black solid 0px; background-color: white;"></iframe>
+</div></div>
+
+<div class="window" id="forwardwin">
+<div class="header" style="width: 800px !important;"><button class="headertext">Forward</button><button onclick="CloseForward()" class="closebutton"><i class="fa-solid fa-xmark"></i></button></div>
+<div class="content"><iframe src="" id="forward" width="800" height="450" style="border-radius: 0px 0px 5px 5px; border: black solid 0px; background-color: white;"></iframe>
 </div></div>
 
 <div class="window" id="window9">

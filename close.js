@@ -2,10 +2,10 @@ function Closetestwindow() {
   var x = document.getElementById("window");
   if (x.style.display === "none") {
     x.style.display = "block";
-    var files = document.getElementById("files"); files.src = ("medias/");
+    var files = document.getElementById("files"); files.src = ("https://zeankundev.github.io/KaOS/files.html");
   } else {
     x.style.display = "none";
-    var files = document.getElementById("files"); files.src = ("medias/");
+    var files = document.getElementById("files"); files.src = ("https://zeankundev.github.io/KaOS/files.html");
   }
 }
 function Closetestwindow2() {
@@ -113,6 +113,46 @@ function Userview() {
 }
 function Kasiustalk() {
   var x = document.getElementById("Kaostalk");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function asatlif() {
+  var x = document.getElementById("asatlif");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function KasiusTv() {
+  var x = document.getElementById("KasiusTv");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function weather() {
+  var x = document.getElementById("weather");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function KasiusType() {
+  var x = document.getElementById("KasiusType");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Closetestwindow8() {
+  var x = document.getElementById("vm");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {

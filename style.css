@@ -147,19 +147,16 @@ padding: 10px;
 border-radius: 5px;
 }
 .notifications {
-height: 91.5%;
-width:300px;
+height: 93%;
+width: 98.5%;
 position:fixed!important;
 color: white;
-padding: 2.5px;
-right:0;
+padding: 1px;
 top: -1;
-display: none;
 background: rgba(60, 60, 60, 0.67);
 backdrop-filter: blur(50px);
 border-radius: 10px;
-margin-right: 7px;
-margin-top: 7px;
+animation: popup 0.2s ease 0s 1 normal none;
 }
 .notifications ul {
 padding: 0;
@@ -333,4 +330,20 @@ border-radius: 10px;
 }
 .settings {
 overflow: auto;
+}
+.notifications iframe {
+  height: 97.5%;
+  width: 100%;
+  border-radius: 0px 0px 10px 10px;
+  border: black solid 0px;
+}
+.notifications button {
+  width: 100%;
+  border: none;
+  border-radius: 10px 10px 0px 0px;
+  background: none;
+  color: white;
+}
+.notifications button:hover {
+  background: red;
 }

@@ -127,24 +127,8 @@ function asatlif() {
     x.style.display = "none";
   }
 }
-function KasiusTv() {
-  var x = document.getElementById("KasiusTv");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
 function weather() {
   var x = document.getElementById("weather");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-function KasiusType() {
-  var x = document.getElementById("KasiusType");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
@@ -158,4 +142,17 @@ function Closetestwindow8() {
   } else {
     x.style.display = "none";
   }
+}
+function fullscreen(link) {
+  var x = document.getElementById("Sidebar2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    document.getElementById("fullscreenapp").src = link;
+  } else {
+    x.style.display = "none";
+  }
+}
+function runprompt () {
+  applink = prompt("Insert Application ID");
+  fullscreen(applink);
 }

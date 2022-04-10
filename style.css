@@ -166,13 +166,13 @@ margin: 0;
   float: right;
   color: white;
   height: 100%;
-  width: 50px;
+  width: 35px;
   border: black solid 0px;
   border-radius: 0px 5px 0px 0px;
   font-size: 20px;
   background: none;
 }
-.closebutton:hover{
+.closebutton:hover, .closebutton2:hover{
   background-color: red;
   border: black solid 0px;
 
@@ -346,4 +346,13 @@ overflow: auto;
 }
 .notifications button:hover {
   background: red;
+}
+.closebutton2 {
+  float: right;
+  color: white;
+  height: 100%;
+  width: 35px;
+  border: black solid 0px;
+  font-size: 20px;
+  background: none;
 }

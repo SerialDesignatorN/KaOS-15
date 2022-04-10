@@ -72,63 +72,105 @@
 <h1 id="span" style="padding: 0; margin: 0; text-align: center;"></h1>
 
 <div class="window" id="window">
- <div class="header"><button class="headertext">Files Beta</button><button onclick="Closetestwindow()" class="closebutton"><i class="fa-solid fa-xmark"></i></button></div>
+ <div class="header"><button class="headertext">Files Beta</button>
+    <button onclick="Closetestwindow()" class="closebutton"><i class="fa-solid fa-x"></i></button>
+    <button onclick="Closetestwindow(); fullscreen('https://zeankundev.github.io/KaOS/files.html')" class="closebutton2"><i class="fa-regular fa-square"></i></button>
+    <button onclick="Closetestwindow()" class="closebutton2"><i class="fa-regular fa-window-minimize"></i></button>
+</div>
  <div class="content"><iframe src="" width="600" height="450" style="border-radius: 0px 0px 5px 5px; border: black solid 0px; background-color: white;" id="files"></iframe></div></div>
 
 
 <div class="window" id="window2">
-<div class="header"><button class="headertext">Meme Maker</button><button onclick="Closetestwindow2()" class="closebutton"><i class="fa-solid fa-xmark"></i></button></div>
+<div class="header"><button class="headertext">Meme Maker</button>
+    <button onclick="Closetestwindow2()" class="closebutton"><i class="fa-solid fa-x"></i></button>
+    <button onclick="Closetestwindow2(); fullscreen('Apps/MEMEMAKER.html')" class="closebutton2"><i class="fa-regular fa-square"></i></button>
+    <button onclick="Closetestwindow2()" class="closebutton2"><i class="fa-regular fa-window-minimize"></i></button>
+</div>
 <div class="content"><iframe src="" id="mememaker" width="600" height="450" style="border-radius: 0px 0px 5px 5px; border: black solid 0px;"></iframe></div></div>
 
 
 <div class="window" id="window3">
-<div class="header"><button class="headertext" onclick="saveTXT()">Notes</button><button onclick="Closetestwindow3()" class="closebutton"><i class="fa-solid fa-xmark"></i></button></div>
+<div class="header"><button class="headertext" onclick="saveTXT()">Notes</button>
+    <button onclick="Closetestwindow3()" class="closebutton"><i class="fa-solid fa-x"></i></button>
+    <button onclick="Closetestwindow3()" class="closebutton2"><i class="fa-regular fa-window-minimize"></i></button>
+</div>
 <div class="content"><textarea id="msg" style="border-radius: 0px 0px 5px 5px; border: black solid 0px; width: 600; height: 450; resize: none; opacity: .85; background-color: #1d1d1d; backdrop-filter: blur(20px); color: white; font-family: arial; font-size: 15px; padding: 5px;" ></textarea></div></div>
 
 
 <div class="window" id="window4">
-<div class="header"><button class="headertext">Media</button><button onclick="Closetestwindow4()" class="closebutton"><i class="fa-solid fa-xmark"></i></button></div>
+<div class="header"><button class="headertext">Media</button>
+    <button onclick="Closetestwindow4()" class="closebutton"><i class="fa-solid fa-x"></i></button>
+    <button onclick="Closetestwindow4(); fullscreen('MEDIA.html')" class="closebutton2"><i class="fa-regular fa-square"></i></button>
+    <button onclick="Closetestwindow4()" class="closebutton2"><i class="fa-regular fa-window-minimize"></i></button>
+</div>
 <div class="content"><iframe src="MEDIA.html" style="border-radius: 0px 0px 5px 5px; border: black solid 0px; width: 600; height: 450; background-color: #1d1d1d; opacity: .95; backdrop-filter: blur(10px);"></iframe></div></div>
 
 
 <div class="window" id="window5">
-<div class="header"><button class="headertext">Store</button><button onclick="Closetestwindow5()" class="closebutton"><i class="fa-solid fa-xmark"></i></button></div>
+<div class="header"><button class="headertext">Store</button>
+    <button onclick="Closetestwindow5()" class="closebutton"><i class="fa-solid fa-x"></i></button>
+    <button onclick="Closetestwindow5(); fullscreen('https://zeankundev.github.io/KaOS-Store/')" class="closebutton2"><i class="fa-regular fa-square"></i></button>
+    <button onclick="Closetestwindow5()" class="closebutton2"><i class="fa-regular fa-window-minimize"></i></button>
+</div>
 <div class="content"><iframe src="https://zeankundev.github.io/KaOS-Store/" id="store" width="600" height="450" style="border-radius: 0px 0px 5px 5px; border: black solid 0px; background-color: white;"></iframe>
 </div></div>
 
 <div class="window" id="window8">
-<div class="header"><button class="headertext">Visual Studio Code</button><button onclick="CloseVSCode()" class="closebutton"><i class="fa-solid fa-xmark"></i></button></div>
+<div class="header"><button class="headertext">Visual Studio Code</button>
+    <button onclick="CloseVSCode()" class="closebutton"><i class="fa-solid fa-x"></i></button>
+    <button onclick="CloseVSCode(); fullscreen('https://vscode.dev')" class="closebutton2"><i class="fa-regular fa-square"></i></button>
+    <button onclick="CloseVSCode()" class="closebutton2"><i class="fa-regular fa-window-minimize"></i></button>
+</div>
 <div class="content"><iframe src="" id="vscode" width="600" height="450" style="border-radius: 0px 0px 5px 5px; border: black solid 0px; background-color: white;"></iframe>
 </div></div>
 
 <div class="window" id="window9">
-<div class="header"><button class="headertext">Terminal</button><button onclick="CloseTerminal()" class="closebutton"><i class="fa-solid fa-xmark"></i></button></div>
+<div class="header"><button class="headertext">Terminal</button>
+    <button onclick="CloseTerminal()" class="closebutton"><i class="fa-solid fa-x"></i></button>
+    <button onclick="CloseTerminal(); fullscreen('terminal.html')" class="closebutton2"><i class="fa-regular fa-square"></i></button>
+    <button onclick="CloseTerminal()" class="closebutton2"><i class="fa-regular fa-window-minimize"></i></button>
+</div>
 <div class="content"><iframe src="" id="terminal" width="600" height="450" style="border-radius: 0px 0px 5px 5px; border: black solid 0px; background-color: white; overflow: hidden;"></iframe>
 </div></div>
 
 
 <div class="window" id="window7">
-<div class="header"><button class="headertext">About</button><button onclick="Closetestwindow7()" class="closebutton"><i class="fa-solid fa-xmark"></i></button></div>
+<div class="header"><button class="headertext">About</button>
+    <button onclick="Closetestwindow7()" class="closebutton"><i class="fa-solid fa-x"></i></button>
+    <button onclick="Closetestwindow7(); fullscreen('version.html')" class="closebutton2"><i class="fa-regular fa-square"></i></button>
+    <button onclick="Closetestwindow7()" class="closebutton2"><i class="fa-regular fa-window-minimize"></i></button>
+</div>
 <div class="content"><iframe src="version.html" width="600" height="450" style="border-radius: 0px 0px 5px 5px; border: black solid 0px; background-color: white;"></iframe>
 </div></div>
 
 <div class="window" id="asatlif">
-<div class="header"><button class="headertext">AsatLif Simulator</button><button onclick="asatlif()" class="closebutton"><i class="fa-solid fa-xmark"></i></button></div>
+<div class="header"><button class="headertext">AsatLif Simulator</button>
+    <button onclick="asatlif()" class="closebutton"><i class="fa-solid fa-x"></i></button>
+    <button onclick="asatlif(); fullscreen('https://zeankundev.github.io/KaOS-Store/apps/ASATLIF.html')" class="closebutton2"><i class="fa-regular fa-square"></i></button>
+    <button onclick="asatlif()" class="closebutton2"><i class="fa-regular fa-window-minimize"></i></button>
+</div>
 <div class="content"><iframe src="https://zeankundev.github.io/KaOS-Store/apps/ASATLIF.html" width="600" height="450" style="border-radius: 0px 0px 5px 5px; border: black solid 0px; background-color: white;"></iframe>
 </div></div>
 
 <div class="window" id="weather">
-<div class="header"><button class="headertext">Weather</button><button onclick="weather()" class="closebutton"><i class="fa-solid fa-xmark"></i></button></div>
+<div class="header"><button class="headertext">Weather</button>
+    <button onclick="weather()" class="closebutton"><i class="fa-solid fa-x"></i></button>
+    <button onclick="weather(); fullscreen('https://zeankundev.github.io/KaOS-13/weather/index.html')" class="closebutton2"><i class="fa-regular fa-square"></i></button>
+    <button onclick="weather()" class="closebutton2"><i class="fa-regular fa-window-minimize"></i></button>
+</div>
 <div class="content"><iframe src="https://zeankundev.github.io/KaOS-13/weather/index.html" width="600" height="450" style="border-radius: 0px 0px 5px 5px; border: black solid 0px; background-color: white;"></iframe>
 </div></div>
 
 <div class="window" id="vm">
-<div class="header" style="width: 800px;"><button class="headertext">KaOS Vm</button><button onclick="Closetestwindow8()" class="closebutton"><i class="fa-solid fa-xmark"></i></button></div>
+<div class="header" style="width: 800px;"><button class="headertext">KaOS Vm</button>
+    <button onclick="Closetestwindow8()" class="closebutton"><i class="fa-solid fa-x"></i></button>
+    <button onclick="Closetestwindow8(); fullscreen('https://zeankundev.github.io/KaOS-VM/')" class="closebutton2"><i class="fa-regular fa-square"></i></button>
+    <button onclick="Closetestwindow8()" class="closebutton2"><i class="fa-regular fa-window-minimize"></i></button></div>
 <div class="content"><iframe src="https://zeankundev.github.io/KaOS-VM/" width="800" height="450" style="border-radius: 0px 0px 5px 5px; border: black solid 0px; background-color: white;"></iframe>
 </div></div>
 
 <div class="window" id="window6">
-<div class="header" id="header"><button class="headertext">⚙️ Settings</button><button onclick="Closetestwindow6()" class="closebutton"><i class="fa-solid fa-xmark"></i></button></div>
+<div class="header" id="header"><button class="headertext">⚙️ Settings</button><button onclick="Closetestwindow6()" class="closebutton"><i class="fa-solid fa-xmark"></i></button><button onclick="Closetestwindow6()" class="closebutton2"><i class="fa-regular fa-window-minimize"></i></button></div>
 <div class="content" style="width: 600px;">
     <div class="settingssidebar" style="background-color: #1d1d1d; color: #fff; width: 105.30px; float: left; height: 450px; border-radius: 0px 0px 0px 5px;">
         <br><H3 style="background-color: #232323;"><i class="fa-solid fa-palette"></i> Themes</H3>

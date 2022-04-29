@@ -29,8 +29,17 @@ function color2() {
   document.getElementById("style").href = "tablet.css";
 }
 function color3() {
-  document.getElementById("style").href = "https://zeankundev.github.io/KaOS/style.css";
+  document.getElementById("style").href = "Simple.css";
 }
 function color4() {
   document.getElementById("style").href = "classic.css";
+}
+function left() {
+  document.getElementById("style").href = "style.css";
+}
+function center() {
+  document.getElementById("style").href = "center.css";
+}
+function right() {
+  document.getElementById("style").href = "right.css";
 }

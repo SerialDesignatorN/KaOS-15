@@ -59,7 +59,7 @@ background: rgba(60, 60, 60, 0.67);
 backdrop-filter: blur(50px);
 border-radius: 10px;
 display: flex;
-justify-content: center;
+justify-content: right;
 }
 .window {
   height: 0px;
@@ -191,7 +191,6 @@ margin: 0;
   float: left;
   transition: all 0.2s ease;
   background: none;
-  margin-right: 50px;
 }
 .menubutton:hover {
   background: rgb(49,49,49);
@@ -242,8 +241,8 @@ display: inline-block;
 .sidebar2 {
   bottom: 0;
   margin-bottom: 50px;
-  left: 50%;
-  transform: translate(-50%, 0);
+  margin-right: 1%;
+  right: 0;
   height: 72.2%;
   width:400px;
   position:fixed;

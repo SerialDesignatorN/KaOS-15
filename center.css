@@ -191,7 +191,6 @@ margin: 0;
   float: left;
   transition: all 0.2s ease;
   background: none;
-  margin-right: 50px;
 }
 .menubutton:hover {
   background: rgb(49,49,49);

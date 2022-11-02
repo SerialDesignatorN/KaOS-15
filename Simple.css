@@ -51,11 +51,11 @@ position: fixed;
 float: left;
 bottom: 0;
 width: 98.5%;
-background: rgb(49,49,49);
 height: 40px;
-margin-bottom: 3;
+margin-bottom: 0;
 padding: 0;
-background: rgba(60, 60, 60, 0.67);
+background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(71,71,71,0) 50%, rgba(144,144,144,0) 100%);
 backdrop-filter: blur(50px);
 border-radius: 10px;
 display: flex;
@@ -65,7 +65,7 @@ justify-content: center;
   height: 0px;
   width: 0px;
   display: none;
-  animation: open 0.05s ease 0s 1 normal forwards;
+  animation: open 0.25s ease 0s 1 normal forwards;
 }
 .header {
  height: 30px;
@@ -85,39 +85,28 @@ justify-content: center;
  resize: both;
 }
 @keyframes popup {
-  0% {
-    opacity: 0;
-    transform: rotateX(100deg);
-    transform-origin: bottom;
-  }
-
-  100% {
-    opacity: 1;
-    transform: rotateX(0);
-    transform-origin: bottom;
-  }
+ 0% {
+  opacity: 0;
+ }
+ 100% {
+  opacity: 1;
+ }
 }
 @keyframes close {
-  0% {
-    opacity: 1;
-    transform: rotateX(0);
-    transform-origin: bottom;
-  }
-
-  100% {
-    opacity: 0;
-    transform: rotateX(-70deg);
-    transform-origin: bottom;
-  }
+ 0% {
+  opacity: 0;
+ }
+ 100% {
+  opacity: 1;
+ }
 }
 @keyframes open {
-  0% {
-    transform: scale(0.5);
-  }
-  
-  100% {
-    transform: scale(1);
-  }
+ 0% {
+  opacity: 0;
+ }
+ 100% {
+  opacity: 1;
+ }
 }
 .headertext {
   color: white;
@@ -191,11 +180,11 @@ margin: 0;
   float: left;
   transition: all 0.2s ease;
   background: none;
-  margin-right: 50px;
 }
 .menubutton:hover {
-  background: rgb(49,49,49);
+  background: rgb(49,49,49, 0.50);
   width: 40px;
+  border-radius: 5px;
   height: 40px;
 }
 li {
@@ -231,7 +220,7 @@ display: inline-block;
   padding: 3px;
   position: fixed;
   bottom: 0;
-  text-align: right;
+  text-align: center;
 }
 .search2 {
   width: 98%;
@@ -248,7 +237,8 @@ display: inline-block;
   width:400px;
   position:fixed;
   z-index:1;
-  animation: popup 0.2s ease 0s 1 normal none;
+  animation: menushow;
+animation-duration: 0.25s ;
   border-radius: 5px 5px 0px 0px;
   overflow:auto;
   padding: 10px;
@@ -256,10 +246,18 @@ display: inline-block;
   background-color: #323232;
   display: none;
   flex-direction: column;
-background: rgba(60, 60, 60, 0.67);
+background: rgba(60, 60, 60, 0.25);
 backdrop-filter: blur(50px);
 border-radius: 10px;
-text-align: center;
+ text-align: center;
+}
+@keyframes menushow {
+ 0% {
+  opacity: 0;
+ }
+ 100% {
+  opacity: 1;
+ }
 }
 .menubutton2 {
   background: none;

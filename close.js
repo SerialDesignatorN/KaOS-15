@@ -2,10 +2,10 @@ function Closetestwindow() {
   var x = document.getElementById("window");
   if (x.style.display === "none") {
     x.style.display = "block";
-    var files = document.getElementById("files"); files.src = ("medias/");
+    var files = document.getElementById("files"); files.src = ("https://zeankundev.github.io/KaOS/files.html");
   } else {
     x.style.display = "none";
-    var files = document.getElementById("files"); files.src = ("medias/");
+    var files = document.getElementById("files"); files.src = ("https://zeankundev.github.io/KaOS/files.html");
   }
 }
 function Closetestwindow2() {
@@ -129,4 +129,40 @@ function CloseForward() {
     x.style.display = "none";
     content.src = "";
   }
+function asatlif() {
+  var x = document.getElementById("asatlif");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function weather() {
+  var x = document.getElementById("weather");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Closetestwindow8() {
+  var x = document.getElementById("vm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function fullscreen(link) {
+  var x = document.getElementById("Sidebar2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    document.getElementById("fullscreenapp").src = link;
+  } else {
+    x.style.display = "none";
+  }
+}
+function runprompt () {
+  applink = prompt("Insert Application ID");
+  fullscreen(applink);
 }
